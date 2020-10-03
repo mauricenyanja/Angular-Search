@@ -1,0 +1,14 @@
+.container{
+    padding-top:1%;
+   }
+   .active-cyan-2 input[type=text]:focus:not([readonly]) {
+     border-bottom: 1px solid lightblue;
+     box-shadow: 0 1px 0 0 lightblue;
+     }
+     .active-cyan input[type=text] {
+     border-bottom: 1px solid lightblue;
+     box-shadow: 0 1px 0 0 lightblue;
+     }
+     input{
+       width: 100%;
+     }
