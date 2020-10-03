@@ -10,6 +10,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { RepositoryComponent } from './repository/repository.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { UsersComponent } from './users/users.component';
+import { CustomPipePipe } from './custom-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UsersComponent } from './users/users.component';
     NotFoundComponent,
     RepositoryComponent,
     SearchFormComponent,
-    UsersComponent
+    UsersComponent,
+    CustomPipePipe
   ],
   imports: [
     BrowserModule,
